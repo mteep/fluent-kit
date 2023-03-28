@@ -29,7 +29,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.42.0"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.5.0"),
         .package(url: "https://github.com/vapor/sql-kit.git", from: "3.24.0"),
-        .package(url: "https://github.com/mteep/async-kit.git", from: "1.4.0"),
+        .package(url: "https://github.com/mteep/async-kit.git", branch: "xcode-on-big-sur"),
     ],
     targets: [
         .target(name: "FluentKit", dependencies: [
